@@ -1,0 +1,43 @@
+name: reader_app
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  fluro: ^2.0.3
+  dio: ^4.0.0
+  fluttertoast: ^8.0.8
+  webview_flutter: ^2.0.13
+  flutter_screenutil: ^5.0.0+2
+  shared_preferences: ^2.0.7
+  cached_network_image: ^3.1.0
+  get: ^4.3.8
+  battery: ^2.0.3
+  device_info: ^2.0.2
+  intl: ^0.17.0
+  flutter_swiper_null_safety: ^1.0.2
+  file_picker: ^4.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/img/
+   - mock/
+  
+  fonts: 
+   - family: PingFang Bold
+     fonts: 
+      - asset: assets/fonts/PingFang Bold.ttf
